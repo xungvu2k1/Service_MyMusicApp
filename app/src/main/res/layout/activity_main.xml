@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!--input 1 cái text gì đó vào edittext và gửi giá trị của cái text này lên notification
+    để thể hiện có thể giao tiếp có thể giao tiếp với notification thông qua intent-->
+    <EditText
+        android:id="@+id/edt_data_intent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Data intent"/>
+
+    <Button
+        android:id="@+id/btn_start_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Start Service"/>
+    <Button
+        android:id="@+id/btn_stop_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Stop Service"/>
+</LinearLayout>
